@@ -1,26 +1,36 @@
-<html>
+<!html>
 
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="script/test.js"></script>
-       
+        <script type="text/javascript" src="script/meteo.js"></script>
+        
+
 </head>
 
 <body>
-        <header></header>
+        <header>
+                <button id="authorize_button" style="display: none;">Authorize</button>
+                <button id="signout_button" style="display: none;">Sign Out</button></header>
         <h1>Test</h1>
+        
         <form action="" id="formVille">
                 <input type="text" id="nomville" name="nomville">
                 <input type="submit" value="Il fait combien ?">
         </form>
-        <div id="meteo">
+        <div id="meteoActu">
+                <h1>Jour 1</h1>
                 <h1 id="ville"></h1>
-                <h2 id="temperature1"></h2>
+                <h2 id="temperature"></h2>
         </div>
+        
 
-        <footer></footer>
-</body>
+        <footer>
+                <script type="text/javascript" src="script/agenda.js"></script>
+        </footer>
+        <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()"
+                onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+</body >
 
-</html>
+</html >

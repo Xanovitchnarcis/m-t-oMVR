@@ -1,7 +1,8 @@
-div#meteo{
+div{
     border: 5px solid black;
     width: 40%;
     margin-left: 50%;
     transform: translateX(-50%);
     background-color: blue;
+    text-align: center;
 }
