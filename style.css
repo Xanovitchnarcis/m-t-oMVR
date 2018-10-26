@@ -1,7 +1,15 @@
-div#meteo{
+/*div#meteo{
     border: 5px solid black;
     width: 40%;
     margin-left: 50%;
     transform: translateX(-50%);
     background-color: blue;
+}*/
+
+.nav-wrapper{
+    background-color: rgb(0, 127, 231);
+}
+
+.page-footer{
+    background-color: rgb(0, 127, 231);
 }
